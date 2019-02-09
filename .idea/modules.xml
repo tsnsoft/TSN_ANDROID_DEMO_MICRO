@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TSN_ANDROID_DEMO_MICRO.iml" filepath="$PROJECT_DIR$/TSN_ANDROID_DEMO_MICRO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TSN_DEMO_01_Sum/TSN_DEMO_01_Sum.iml" filepath="$PROJECT_DIR$/TSN_DEMO_01_Sum/TSN_DEMO_01_Sum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TSN_DEMO_02_Quadratic/TSN_DEMO_02_Quadratic.iml" filepath="$PROJECT_DIR$/TSN_DEMO_02_Quadratic/TSN_DEMO_02_Quadratic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TSN_DEMO_03_Questionnaire/TSN_DEMO_03_Questionnaire.iml" filepath="$PROJECT_DIR$/TSN_DEMO_03_Questionnaire/TSN_DEMO_03_Questionnaire.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Табличная разметка элементов по-центру всего экрана -->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:gravity="center_vertical"
+             android:stretchColumns="*">
+
+    <!-- Строка таблицы 1 -->
+    <TableRow>
+
+        <!-- Текстовая надпись размером в 6 ячеек по-центру -->
+        <TextView
+            android:id="@+id/textView"
+            android:layout_span="6"
+            android:gravity="center"
+            android:text="Решение квадратного уравнения:"/>
+
+    </TableRow>
+
+    <!-- Строка таблицы 2 -->
+    <TableRow>
+
+        <!-- Текстовая надпись справа -->
+        <TextView
+            android:id="@+id/textView2"
+            android:gravity="right"
+            android:text="a="/>
+
+        <!-- Поле ввода числа со знаком для "a" -->
+        <EditText
+            android:id="@+id/editText_a"
+            android:inputType="number|text"/>
+
+        <!-- Текстовая надпись справа -->
+        <TextView
+            android:id="@+id/textView3"
+            android:gravity="right"
+            android:text="b="/>
+
+        <!-- Поле ввода числа со знаком для "b" -->
+        <EditText
+            android:id="@+id/editText_b"
+            android:inputType="number|text"/>
+
+        <!-- Текстовая надпись справа -->
+        <TextView
+            android:id="@+id/textView4"
+            android:gravity="right"
+            android:text="c="/>
+
+        <!-- Поле ввода числа со знаком для "c" -->
+        <EditText
+            android:id="@+id/editText_c"
+            android:inputType="number|text"/>
+
+    </TableRow>
+
+    <!-- Строка таблицы 3 -->
+    <TableRow>
+
+        <!-- Кнопка для расчета размером в 6 ячеек -->
+        <Button
+            android:id="@+id/button"
+            android:layout_span="6"
+            android:onClick="onCalc"
+            android:text="РЕШИТЬ"/>
+    </TableRow>
+
+    <!-- Строка таблицы 4 -->
+    <TableRow>
+
+        <!-- Текстовая надпись размером в 6 ячеек по-центру -->
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_span="6"
+            android:gravity="center"
+            android:text="Ответ:"/>
+
+    </TableRow>
+
+    <!-- Строка таблицы 5 -->
+    <TableRow>
+
+        <!-- Текстовая надпись для отображения "x1" по-центру в 3 ячейки -->
+        <TextView
+            android:id="@+id/textView_x1"
+            android:layout_span="3"
+            android:gravity="center"
+            android:text="x1="/>
+
+        <!-- Текстовая надпись для отображения "x2" по-центру в 3 ячейки  -->
+        <TextView
+            android:id="@+id/textView_x2"
+            android:layout_span="3"
+            android:gravity="center"
+            android:text="x2="/>
+
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Относительное выравнивание на весь экран,
+     используется фоновая картинка "background1" -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background1">
+
+    <!-- Выравнивание от верха экрана (android:layout_alignParentTop="true")
+         и выше компонента "textView2" (android:layout_above="@+id/textView2"),
+         по-центру между ними (по-вертикали) (android:gravity="center") -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/textView2"
+        android:gravity="center"
+        android:text="@string/Кто_Вы"/>
+
+    <!-- Выравнивание от правой части экрана (android:layout_alignParentEnd="true")
+         и в конце компонента "textView" (android:layout_toEndOf="@+id/textView") -->
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/Введите_ФИО"
+        android:inputType="textPersonName"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/textView"/>
+
+    <!-- Выравнивание ниже компонента "editText" (android:layout_below="@+id/editText")
+         и выше компонента "textView3" (android:layout_above="@+id/textView3"),
+         по-центру между ними (по-вертикали) (android:gravity="center") -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_above="@+id/textView3"
+        android:gravity="center"
+        android:text="@string/Укажите_пол"/>
+
+    <!-- Выравнивание ниже компонента "editText" (android:layout_below="@+id/editText")
+         и после компонента "textView2" (android:layout_toEndOf="@+id/textView2") -->
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_toEndOf="@+id/textView2"
+        android:text="@string/мужчина"/>
+
+    <!-- Выравнивание ниже компонента "checkBox" (android:layout_below="@+id/checkBox") -->
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox"
+        android:text="@string/Выберите_образование"/>
+
+    <!-- Выравнивание ниже компонента "textView3" (android:layout_below="@+id/textView3") -->
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/начальное"/>
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/среднее"/>
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/высшее"/>
+
+    </RadioGroup>
+
+    <!-- Выравнивание выше компонента "radioGroup" (android:layout_above="@+id/radioGroup")
+         и к правому краю экрана (android:layout_alignParentEnd="true") -->
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/radioGroup"
+        android:layout_alignParentEnd="true"
+        android:text="@string/Ваша_стана"/>
+
+    <!-- Выравнивание ниже компонента "textView4" (android:layout_below="@+id/textView4")
+         и к правому краю экрана (android:layout_alignParentEnd="true") -->
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/country_arrays"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentEnd="true"/>
+
+    <!-- Выравнивание к низу экрана (android:layout_alignParentBottom="true") -->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:onClick="onInfo"
+        android:text="@string/ИТОГО"/>
+
+</RelativeLayout>
