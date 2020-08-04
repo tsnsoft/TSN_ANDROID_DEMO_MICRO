@@ -25,19 +25,19 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Инициализация переменных доступа к компонентам окна
-        editText = (EditText) findViewById(R.id.editText);
-        checkBox = (CheckBox) findViewById(R.id.checkBox);
-        radioGroup = (RadioGroup) findViewById(R.id.radioGroup);
-        spinner = (Spinner) findViewById(R.id.spinner);
+        editText =   findViewById(R.id.editText);
+        checkBox =   findViewById(R.id.checkBox);
+        radioGroup = findViewById(R.id.radioGroup);
+        spinner =    findViewById(R.id.spinner);
     }
 
     // МЕТОД ДЛЯ КНОПКИ "ИТОГО"
     public void onInfo(View v) {
-        selectRadioButton = (RadioButton) findViewById(radioGroup.getCheckedRadioButtonId());
-
         // Создание второго окна
         Intent intent = new Intent(MainActivity.this, ResultActivity.class);
         //Intent intent = new Intent("kz.talipovsn.questionnaire.ResultActivity");
+
+        selectRadioButton = findViewById(radioGroup.getCheckedRadioButtonId());
 
         // Подготовка параметров для второго окна
         intent.putExtra("fio", editText.getText().toString());

@@ -13,7 +13,7 @@ public class ResultActivity extends AppCompatActivity {
         setContentView(R.layout.activity_result);
 
         // Переменная доступа к компоненту окна с инициализацией
-        EditText editText = (EditText) findViewById(R.id.editText);
+        EditText editText = findViewById(R.id.editText);
 
         // Запрет на редактирование в компоненте "editText"
         editText.setKeyListener(null);

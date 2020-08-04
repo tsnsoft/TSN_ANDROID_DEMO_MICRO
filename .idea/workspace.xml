@@ -11,14 +11,13 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/TSN_DEMO_02_Quadratic/TSN_DEMO_02_Quadratic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/TSN_DEMO_02_Quadratic/TSN_DEMO_02_Quadratic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/TSN_DEMO_03_Questionnaire/TSN_DEMO_03_Questionnaire.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/TSN_DEMO_03_Questionnaire/TSN_DEMO_03_Questionnaire.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TSN_DEMO_03_Questionnaire/src/main/res/layout-land/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TSN_DEMO_03_Questionnaire/src/main/res/layout-land/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TSN_DEMO_03_Questionnaire/src/main/java/kz/talipovsn/questionnaire/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/TSN_DEMO_03_Questionnaire/src/main/java/kz/talipovsn/questionnaire/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TSN_DEMO_03_Questionnaire/src/main/java/kz/talipovsn/questionnaire/ResultActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/TSN_DEMO_03_Questionnaire/src/main/java/kz/talipovsn/questionnaire/ResultActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TSN_DEMO_03_Questionnaire/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TSN_DEMO_03_Questionnaire/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TSN_DEMO_03_Questionnaire/src/main/res/layout/activity_result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TSN_DEMO_03_Questionnaire/src/main/res/layout/activity_result.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596551132411</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <created>1596551848038</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596551848038</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -214,17 +220,17 @@
       <screen x="0" y="0" width="1603" height="873" />
     </state>
     <state x="665" y="253" key="AndroidCreateXmlResourceDialog/0.0.1603.873@0.0.1603.873" timestamp="1596544812369" />
-    <state x="246" y="35" key="CommitChangelistDialog2" timestamp="1596551130404">
+    <state x="246" y="35" key="CommitChangelistDialog2" timestamp="1596551846486">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
-    <state x="246" y="35" key="CommitChangelistDialog2/0.0.1603.873@0.0.1603.873" timestamp="1596551130404" />
-    <state x="314" y="82" key="SettingsEditor" timestamp="1596545853117">
+    <state x="246" y="35" key="CommitChangelistDialog2/0.0.1603.873@0.0.1603.873" timestamp="1596551846486" />
+    <state x="314" y="82" key="SettingsEditor" timestamp="1596553366045">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
-    <state x="314" y="82" key="SettingsEditor/0.0.1603.873@0.0.1603.873" timestamp="1596545853117" />
-    <state x="397" y="173" key="Vcs.Push.Dialog.v2" timestamp="1596546919966">
+    <state x="314" y="82" key="SettingsEditor/0.0.1603.873@0.0.1603.873" timestamp="1596553366045" />
+    <state x="397" y="173" key="Vcs.Push.Dialog.v2" timestamp="1596551850906">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
-    <state x="397" y="173" key="Vcs.Push.Dialog.v2/0.0.1603.873@0.0.1603.873" timestamp="1596546919966" />
+    <state x="397" y="173" key="Vcs.Push.Dialog.v2/0.0.1603.873@0.0.1603.873" timestamp="1596551850906" />
   </component>
 </project>

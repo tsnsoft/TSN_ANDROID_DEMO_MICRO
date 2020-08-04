@@ -113,10 +113,10 @@
 
     <!-- Выравнивание ниже компонента "textView4" (android:layout_below="@+id/textView4") -->
     <Spinner
+        android:layout_below="@+id/textView4"
         android:id="@+id/spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView4"
         android:entries="@array/country_arrays"/>
 
     <!-- Выравнивание по нижней границы окна (android:layout_alignParentBottom="true") -->
