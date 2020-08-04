@@ -20,11 +20,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Инициализация переменных доступа к компонентам окна
-        editText_a = (EditText) findViewById(R.id.editText_a);
-        editText_b = (EditText) findViewById(R.id.editText_b);
-        editText_c = (EditText) findViewById(R.id.editText_c);
-        textView_x1 = (TextView) findViewById(R.id.textView_x1);
-        textView_x2 = (TextView) findViewById(R.id.textView_x2);
+        editText_a = findViewById(R.id.editText_a);
+        editText_b = findViewById(R.id.editText_b);
+        editText_c = findViewById(R.id.editText_c);
+        textView_x1 = findViewById(R.id.textView_x1);
+        textView_x2 = findViewById(R.id.textView_x2);
 
         // Проверка на переворот экрана и восстановление нужных значений в компонентах
         if (savedInstanceState != null) {
@@ -55,9 +55,8 @@ public class MainActivity extends AppCompatActivity {
             c = Double.parseDouble(editText_c.getText().toString());
         } catch (Exception e) {
             // Выдача всплывающего сообщения на экран об ошибке
-            Toast toast = Toast.makeText(MainActivity.this, "Неверные входные данные!",
-                    Toast.LENGTH_LONG);
-            toast.show();
+            Toast.makeText(MainActivity.this, "Неверные входные данные!",
+                    Toast.LENGTH_LONG).show();
             return;
         }
 

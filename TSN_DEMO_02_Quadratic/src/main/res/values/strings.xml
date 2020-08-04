@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">"TSN_DEMO_02_Quadratic"</string>
+    <string name="Решение_квадратного_уравнения">Решение квадратного уравнения:</string>
 </resources>

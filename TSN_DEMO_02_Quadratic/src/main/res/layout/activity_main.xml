@@ -4,9 +4,9 @@
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-             android:layout_height="match_parent"
-             android:gravity="center_vertical"
-             android:stretchColumns="*">
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:stretchColumns="*">
 
     <!-- Строка таблицы 1 -->
     <TableRow>
@@ -16,8 +16,8 @@
             android:id="@+id/textView"
             android:layout_span="6"
             android:gravity="center"
-            android:text="Решение квадратного уравнения:"
-            tools:ignore="HardcodedText" />
+            android:text="@string/Решение_квадратного_уравнения"
+             />
 
     </TableRow>
 
