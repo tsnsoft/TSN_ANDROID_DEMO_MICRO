@@ -32,7 +32,8 @@
         android:gravity="center"
         android:ems="20"
         android:hint="@string/Введите_ФИО"
-        android:inputType="textPersonName"/>
+        android:inputType="textPersonName"
+        android:importantForAutofill="no" />
 
     <!-- Выравнивание ниже компонента "editText" (android:layout_below="@+id/editText")
          по-центру по-горизонтали (android:gravity="center")

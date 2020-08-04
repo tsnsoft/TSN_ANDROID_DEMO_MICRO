@@ -28,7 +28,8 @@
         android:hint="@string/Введите_ФИО"
         android:inputType="textPersonName"
         android:layout_alignParentEnd="true"
-        android:layout_toEndOf="@+id/textView"/>
+        android:layout_toEndOf="@+id/textView"
+        android:importantForAutofill="no" />
 
     <!-- Выравнивание ниже компонента "editText" (android:layout_below="@+id/editText")
          и выше компонента "textView3" (android:layout_above="@+id/textView3"),
