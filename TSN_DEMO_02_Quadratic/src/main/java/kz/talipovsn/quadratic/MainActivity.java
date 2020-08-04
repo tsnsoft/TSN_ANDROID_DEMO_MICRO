@@ -1,5 +1,6 @@
 package kz.talipovsn.quadratic;
 
+import android.annotation.SuppressLint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -41,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // МЕТОД ДЛЯ КНОПКИ РАСЧЕТА
+    @SuppressLint("DefaultLocale")
     public void onCalc(View v) {
 
         // Локальные переменные
@@ -48,12 +50,13 @@ public class MainActivity extends AppCompatActivity {
 
         try {
             // Считывание введенных входных значений в переменные
-            a = Double.valueOf(editText_a.getText().toString());
-            b = Double.valueOf(editText_b.getText().toString());
-            c = Double.valueOf(editText_c.getText().toString());
+            a = Double.parseDouble(editText_a.getText().toString());
+            b = Double.parseDouble(editText_b.getText().toString());
+            c = Double.parseDouble(editText_c.getText().toString());
         } catch (Exception e) {
             // Выдача всплывающего сообщения на экран об ошибке
-            Toast toast = Toast.makeText(MainActivity.this, "Неверные входные данные!", Toast.LENGTH_LONG);
+            Toast toast = Toast.makeText(MainActivity.this, "Неверные входные данные!",
+                    Toast.LENGTH_LONG);
             toast.show();
             return;
         }
