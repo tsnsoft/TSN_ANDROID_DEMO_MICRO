@@ -1,11 +1,11 @@
 # TSN_ANDROID_DEMO_MICRO
 Простейшие авторские демо примеры Талипова С.Н. для Android Studio
 
-*Квадратное уравнение с 2-мя разметками (TSN_DEMO_02_Quadratic):*
+**Квадратное уравнение с 2-мя разметками (TSN_DEMO_02_Quadratic):**
 
 ![Screenshot](screenshot.png)
 
-*Многооконная программа (TSN_DEMO_03_Questionnaire):*
+**Многооконная программа (TSN_DEMO_03_Questionnaire):**
 
 ![Screenshot](screenshot1.png)
 
