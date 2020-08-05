@@ -8,13 +8,15 @@
   <component name="ChangeListManager">
     <list default="true" id="28e8be60-ebc4-496c-a05a-ff66e1465fdc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TSN_DEMO_02_Quadratic/screenshot.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="emulator-5554" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_S_API_19" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -204,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596553519032</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <created>1596619624967</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596619624967</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -217,17 +226,17 @@
       <screen x="0" y="0" width="1603" height="873" />
     </state>
     <state x="665" y="253" key="AndroidCreateXmlResourceDialog/0.0.1603.873@0.0.1603.873" timestamp="1596544812369" />
-    <state x="246" y="35" key="CommitChangelistDialog2" timestamp="1596553516748">
+    <state x="246" y="35" key="CommitChangelistDialog2" timestamp="1596619622126">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
-    <state x="246" y="35" key="CommitChangelistDialog2/0.0.1603.873@0.0.1603.873" timestamp="1596553516748" />
+    <state x="246" y="35" key="CommitChangelistDialog2/0.0.1603.873@0.0.1603.873" timestamp="1596619622126" />
     <state x="314" y="82" key="SettingsEditor" timestamp="1596553366045">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
     <state x="314" y="82" key="SettingsEditor/0.0.1603.873@0.0.1603.873" timestamp="1596553366045" />
-    <state x="397" y="173" key="Vcs.Push.Dialog.v2" timestamp="1596553521724">
+    <state x="397" y="173" key="Vcs.Push.Dialog.v2" timestamp="1596619670431">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
-    <state x="397" y="173" key="Vcs.Push.Dialog.v2/0.0.1603.873@0.0.1603.873" timestamp="1596553521724" />
+    <state x="397" y="173" key="Vcs.Push.Dialog.v2/0.0.1603.873@0.0.1603.873" timestamp="1596619670431" />
   </component>
 </project>
