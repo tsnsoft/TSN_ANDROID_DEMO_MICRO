@@ -7,24 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28e8be60-ebc4-496c-a05a-ff66e1465fdc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TSN_DEMO_03_Questionnaire/src/main/java/kz/talipovsn/questionnaire/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/TSN_DEMO_03_Questionnaire/src/main/java/kz/talipovsn/questionnaire/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TSN_DEMO_03_Questionnaire/src/main/java/kz/talipovsn/questionnaire/ResultActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/TSN_DEMO_03_Questionnaire/src/main/java/kz/talipovsn/questionnaire/ResultActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TSN_DEMO_03_Questionnaire/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TSN_DEMO_03_Questionnaire/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_S_API_19" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="emulator-5554" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -207,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596551848038</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update">
+      <created>1596553519032</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596553519032</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -220,17 +217,17 @@
       <screen x="0" y="0" width="1603" height="873" />
     </state>
     <state x="665" y="253" key="AndroidCreateXmlResourceDialog/0.0.1603.873@0.0.1603.873" timestamp="1596544812369" />
-    <state x="246" y="35" key="CommitChangelistDialog2" timestamp="1596551846486">
+    <state x="246" y="35" key="CommitChangelistDialog2" timestamp="1596553516748">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
-    <state x="246" y="35" key="CommitChangelistDialog2/0.0.1603.873@0.0.1603.873" timestamp="1596551846486" />
+    <state x="246" y="35" key="CommitChangelistDialog2/0.0.1603.873@0.0.1603.873" timestamp="1596553516748" />
     <state x="314" y="82" key="SettingsEditor" timestamp="1596553366045">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
     <state x="314" y="82" key="SettingsEditor/0.0.1603.873@0.0.1603.873" timestamp="1596553366045" />
-    <state x="397" y="173" key="Vcs.Push.Dialog.v2" timestamp="1596551850906">
+    <state x="397" y="173" key="Vcs.Push.Dialog.v2" timestamp="1596553521724">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
-    <state x="397" y="173" key="Vcs.Push.Dialog.v2/0.0.1603.873@0.0.1603.873" timestamp="1596551850906" />
+    <state x="397" y="173" key="Vcs.Push.Dialog.v2/0.0.1603.873@0.0.1603.873" timestamp="1596553521724" />
   </component>
 </project>
