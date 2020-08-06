@@ -11,6 +11,10 @@
 
 ![Screenshot](screenshot2.png)
 
+https://www.youtube.com/watch?v=kVbK5phEpRM
+
+https://www.youtube.com/watch?v=ZACUmft0G6s
+
 
 _Полная версия доступна официальным участникам курса Талипова С.Н._
 
