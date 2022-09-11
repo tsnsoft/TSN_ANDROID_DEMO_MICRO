@@ -4,18 +4,19 @@
 
     <application
         android:label="@string/app_name"
-        android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
 
-        <activity android:name=".ResultActivity">
+        <activity android:name=".ResultActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="kz.talipovsn.questionnaire.ResultActivity"/>
                 <category android:name="android.intent.category.DEFAULT"/>

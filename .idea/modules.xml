@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TSN_ANDROID_DEMO_MICRO.iml" filepath="$PROJECT_DIR$/.idea/modules/TSN_ANDROID_DEMO_MICRO.iml" group="TSN_ANDROID_DEMO_MICRO" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TSN_DEMO_02_Quadratic/TSN_DEMO_02_Quadratic.iml" filepath="$PROJECT_DIR$/.idea/modules/TSN_DEMO_02_Quadratic/TSN_DEMO_02_Quadratic.iml" group="TSN_ANDROID_DEMO_MICRO/TSN_DEMO_02_Quadratic" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TSN_DEMO_03_Questionnaire/TSN_DEMO_03_Questionnaire.iml" filepath="$PROJECT_DIR$/.idea/modules/TSN_DEMO_03_Questionnaire/TSN_DEMO_03_Questionnaire.iml" group="TSN_ANDROID_DEMO_MICRO/TSN_DEMO_03_Questionnaire" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TSN_ANDROID_DEMO_MICRO.iml" filepath="$PROJECT_DIR$/.idea/modules/TSN_ANDROID_DEMO_MICRO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TSN_DEMO_02_Quadratic/TSN_ANDROID_DEMO_MICRO.TSN_DEMO_02_Quadratic.iml" filepath="$PROJECT_DIR$/.idea/modules/TSN_DEMO_02_Quadratic/TSN_ANDROID_DEMO_MICRO.TSN_DEMO_02_Quadratic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TSN_DEMO_02_Quadratic/TSN_ANDROID_DEMO_MICRO.TSN_DEMO_02_Quadratic.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/TSN_DEMO_02_Quadratic/TSN_ANDROID_DEMO_MICRO.TSN_DEMO_02_Quadratic.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TSN_DEMO_02_Quadratic/TSN_ANDROID_DEMO_MICRO.TSN_DEMO_02_Quadratic.main.iml" filepath="$PROJECT_DIR$/.idea/modules/TSN_DEMO_02_Quadratic/TSN_ANDROID_DEMO_MICRO.TSN_DEMO_02_Quadratic.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TSN_DEMO_02_Quadratic/TSN_ANDROID_DEMO_MICRO.TSN_DEMO_02_Quadratic.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/TSN_DEMO_02_Quadratic/TSN_ANDROID_DEMO_MICRO.TSN_DEMO_02_Quadratic.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TSN_DEMO_03_Questionnaire/TSN_ANDROID_DEMO_MICRO.TSN_DEMO_03_Questionnaire.iml" filepath="$PROJECT_DIR$/.idea/modules/TSN_DEMO_03_Questionnaire/TSN_ANDROID_DEMO_MICRO.TSN_DEMO_03_Questionnaire.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TSN_DEMO_03_Questionnaire/TSN_ANDROID_DEMO_MICRO.TSN_DEMO_03_Questionnaire.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/TSN_DEMO_03_Questionnaire/TSN_ANDROID_DEMO_MICRO.TSN_DEMO_03_Questionnaire.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TSN_DEMO_03_Questionnaire/TSN_ANDROID_DEMO_MICRO.TSN_DEMO_03_Questionnaire.main.iml" filepath="$PROJECT_DIR$/.idea/modules/TSN_DEMO_03_Questionnaire/TSN_ANDROID_DEMO_MICRO.TSN_DEMO_03_Questionnaire.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TSN_DEMO_03_Questionnaire/TSN_ANDROID_DEMO_MICRO.TSN_DEMO_03_Questionnaire.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/TSN_DEMO_03_Questionnaire/TSN_ANDROID_DEMO_MICRO.TSN_DEMO_03_Questionnaire.unitTest.iml" />
     </modules>
   </component>
 </project>
