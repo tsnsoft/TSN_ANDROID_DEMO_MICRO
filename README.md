@@ -23,4 +23,3 @@ _Полная версия доступна официальным участн�
 Copyright (c) 2022, Talipov S.N.
 All rights reserved.
 
-BSD 3-Clause License
