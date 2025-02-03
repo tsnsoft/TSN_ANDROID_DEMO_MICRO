@@ -4,6 +4,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
                 android:background="@drawable/background1">
 
     <!-- Выравнивание от верхнего края экрана (android:layout_alignParentTop="true")
@@ -16,6 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
         android:gravity="center"
         android:rotation="4"
         android:textColor="#F2E70E"

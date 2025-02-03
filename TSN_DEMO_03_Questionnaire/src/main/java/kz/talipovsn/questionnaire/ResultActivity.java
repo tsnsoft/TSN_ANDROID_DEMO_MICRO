@@ -1,6 +1,8 @@
 package kz.talipovsn.questionnaire;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.WindowCompat;
+
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -10,6 +12,7 @@ public class ResultActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        WindowCompat.setDecorFitsSystemWindows(getWindow(), true);
         setContentView(R.layout.activity_result);
 
         // Переменная доступа к компоненту окна с инициализацией
